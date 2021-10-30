@@ -1,0 +1,11 @@
+.bg {
+  background-image: url("../assets/bacground.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

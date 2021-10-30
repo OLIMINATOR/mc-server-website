@@ -1,0 +1,29 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+}
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 2s;
+}
