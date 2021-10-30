@@ -4,5 +4,5 @@ Simple minecraft server website.
 Example: http://oliminator.net/mc-server-website-/
 <br>
 <br>
-# Exaple:
+# Example:
 ![image](https://i.imgur.com/7dyO26d.png)
