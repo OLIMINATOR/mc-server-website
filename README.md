@@ -1,8 +1,10 @@
 
 # Minecraft server website
-Simple minecraft server website.  
-Example: http://oliminator.net/mc-server-website-/
+Simple, clean website for minecraft servers. Everything is customizable.
+
 <br>
 <br>
-# Example:
-![image](https://i.imgur.com/7dyO26d.png)
+# Preview:
+![image](https://i.imgur.com/pM5JUDS.png)
+
+**Example:** http://oliminator.net/mc-server-website-/
