@@ -1,18 +1,23 @@
+// Button Config 
+$border_radius: 0.3rem;
+$border_radius_hover: 0.4rem;
+$padding: 0.2rem 1rem;
+
 button {
   cursor: pointer;
-  border-radius: 0.3rem;
+  border-radius: $border_radius;
   font-family: "Poppins", sans-serif;
   color: #fff;
   margin: 1.5rem 1rem;
   background-color: white;
   border-style: none;
   font-size: 1.5rem;
-  padding: 0.2rem 1rem;
+  padding: $padding;
   filter: drop-shadow(8px 8px 1px #e4e4e4);
   transition: 0.1s;
 
   &:hover {
-    border-radius: 0.4rem;
+    border-radius: $border_radius_hover;
     filter: drop-shadow(1px 1px 1px #e4e4e4);
   }
 }
