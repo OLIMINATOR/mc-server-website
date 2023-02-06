@@ -1,6 +1,7 @@
 /* Variables */
 :root {
-    --blue: #5bacff;
+    --blue: 91, 172, 255;
+    --blue-dark: #2c3e50;
 }
 
 /* Resets */
@@ -41,6 +42,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    background-color: var(--blue-dark);
 }
 
 /* A elements that don't have a class get default styles */
@@ -77,4 +79,75 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+/* Typography */
+body {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(var(--blue));
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* Layout */
+.container {
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Components */
+.hero {
+    background-color: black;
+    background-image: url("/assets/images/background.png");
+    background-position: center;
+    padding: 12rem 0;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    background-color: rgb(var(--blue));
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 100ms;
+}
+
+.button:hover {
+    background-color: rgba(var(--blue), 0.85);
+}
+
+/* Utilities */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
